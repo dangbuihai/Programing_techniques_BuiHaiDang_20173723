@@ -4,7 +4,7 @@ using namespace std;
 Director::Director():Employee(){
     
 }
-Director::Director(const char* namee, int sal):Employee(namee,sal){
+Director::Director(string namee, int sal):Employee(namee,sal){
     
 }
 Director::~Director(){

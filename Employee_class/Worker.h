@@ -6,7 +6,7 @@ class Worker:public Employee {
         int Level;
     public:
         Worker();
-        Worker(const char* namee, int sal, int lev);
+        Worker(string namee, int sal, int lev);
         ~Worker();
         void doWork();
 };

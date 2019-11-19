@@ -3,10 +3,10 @@
 #include "Employee.h"
 class Manager:public Employee {
     private:
-        char* Dept;
+        string Dept;
     public:
         Manager();
-        Manager(const char* namee, int sal, const char* dept);
+        Manager(string namee, int sal, string dept);
         ~Manager();
         void doWork();
 };

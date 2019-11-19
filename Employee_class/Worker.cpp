@@ -4,7 +4,7 @@ using namespace std;
 Worker::Worker():Employee(){
     Level=1;
 }
-Worker::Worker(const char* namee, int sal, int lev):Employee(namee, sal){
+Worker::Worker(string namee, int sal, int lev):Employee(namee, sal){
     Level=lev;
 }
 Worker::~Worker(){

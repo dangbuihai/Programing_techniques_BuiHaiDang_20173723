@@ -5,7 +5,7 @@ class Director : public Employee {
     private:
     public:
         Director();
-        Director(const char* namee, int sal);
+        Director(string namee, int sal);
         ~Director();
         void doWork();
     };
